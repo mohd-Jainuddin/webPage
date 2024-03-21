@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.box1{
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.box2{
+    width: 75%;
+    background-color: #008380;
+    display: flex;
+    align-items: center;
+}
+
+.boxa{
+    width: 45%;
+}
+
+.sidebar{
+    width: 25%;
+    height: 100vh;
+    background-color: #008380;
+}
+
+select{
+    width: 90%;
+}
+
+.btnBox{
+    width: 100%;
+    height: 100px;
+}
+
+.tableBox th{
+    color: white;
+}
+
+.tableBox td{
+    background-color: white;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainBody table{
+    margin-top: 30px;
+}
+
+.mainBody table th{
+    width: 80px;
+    height: 100px;
+}
